@@ -183,7 +183,7 @@ function getContractBalance() {
 	contract.methods.getBalance().call().then(res=>{
         res = web3.utils.fromWei(res);
         res = (Math.round(res * 100) / 100).toFixed(2);
-        $("#contractBalance").text(res + " BNB");
+        $("#contractBalance").text("Total Matic in Faucet: " + res + " MATIC");
         console.log(res);
     })
 
@@ -201,7 +201,7 @@ function getRewards(currentAddr) {
     contract.methods.farmRewards(currentAddr).call().then(res=>{
         res = web3.utils.fromWei(res);
         res = (Math.abs(res * 100) / 100).toFixed(4);
-        $("#yourRewards").text(res + " BNB");
+        $("#yourRewards").text("Your Gas Funds: " + res + " MATIC");
         console.log(res);
     })
 }
