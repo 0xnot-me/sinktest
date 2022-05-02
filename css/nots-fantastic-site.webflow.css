@@ -2310,12 +2310,12 @@ figcaption {
 }
 
 .rl-styleguide-logo {
-  margin-bottom: 0px;
+  margin-bottom: 50px;
 }
 
 .rl-styleguide-message-wrapper {
   position: relative;
-  top: -187px;
+  top: -264px;
   margin-top: 0px;
   margin-bottom: 10px;
   padding: 2.5rem 2.5rem 3.2rem;
@@ -2411,10 +2411,8 @@ figcaption {
 }
 
 .submit-button {
-  width: 160px;
-  max-width: 320px;
-  min-width: 0px;
-  margin-top: 6px;
+  max-width: 150px;
+  min-width: 317px;
   border-radius: 11px;
   background-color: #d84047;
   font-family: Exo, sans-serif;
@@ -2423,12 +2421,9 @@ figcaption {
 .text-field-3 {
   position: static;
   display: inline-block;
-  width: 160px;
-  max-width: 160px;
+  width: 500px;
+  max-width: 320px;
   min-width: 0px;
-  margin-top: 6px;
-  margin-bottom: 0px;
-  padding-bottom: 9px;
   border-radius: 11px;
   text-align: center;
   -o-object-fit: contain;
@@ -2478,8 +2473,6 @@ figcaption {
 }
 
 .div-block {
-  height: 100px;
-  min-height: 30px;
   margin-top: 13px;
   text-align: center;
 }
@@ -2493,25 +2486,21 @@ figcaption {
 .test2sas {
   width: 160px;
   max-width: 160px;
-  margin-top: 6px;
   padding-right: 0px;
   padding-left: 0px;
   border-radius: 11px;
   font-family: Exo, sans-serif;
-  font-size: 1rem;
+  font-size: 0.99rem;
 }
 
 .test2sas-copy {
-  display: inline-block;
   width: 160px;
   max-width: 160px;
-  margin-top: 6px;
-  margin-left: 0px;
+  margin-left: 6px;
   padding-right: 0px;
   padding-left: 0px;
   border-radius: 11px;
   font-family: Exo, sans-serif;
-  text-align: center;
 }
 
 .image-copy {
@@ -2553,15 +2542,10 @@ figcaption {
 
 .text-block-2 {
   position: relative;
-  top: 0px;
-  bottom: 0px;
-  margin-top: 0px;
+  bottom: -13px;
   margin-bottom: -6px;
-  padding-bottom: 8px;
-  font-family: 'Times New Roman', TimesNewRoman, Times, Baskerville, Georgia, serif;
-  font-size: 1.05rem;
-  font-style: italic;
-  font-weight: 400;
+  padding-bottom: 2px;
+  font-family: Ubuntu, Helvetica, sans-serif;
   text-align: center;
 }
 
@@ -2695,23 +2679,23 @@ figcaption {
 
 .text-size-medium-copy-copy {
   position: relative;
-  top: 16px;
-  margin-top: 20px;
+  top: -16px;
+  margin-top: 76px;
   margin-bottom: 0rem;
   padding-bottom: 0px;
-  font-family: Inconsolata, monospace;
+  font-family: Ubuntu, Helvetica, sans-serif;
   font-size: 1.175rem;
   font-weight: 400;
   text-align: center;
 }
 
-.text-sifffze-medium-copy-copy-copy {
+.text-size-medium-copy-copy-copy {
   margin-top: 0px;
   margin-bottom: 0rem;
   border-radius: 0px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   font-size: 1.2rem;
-  font-weight: 400;
+  font-weight: 300;
   text-align: center;
 }
 
@@ -2894,15 +2878,9 @@ figcaption {
 }
 
 .container-6 {
-  max-height: 199px;
-  max-width: 200px;
-  min-height: 180px;
-  border: 1px solid transparent;
+  max-width: 340px;
   border-radius: 11px;
   background-color: #f7d778;
-  box-shadow: 0 1px 20px -3px #000;
-  text-align: left;
-  mix-blend-mode: normal;
 }
 
 .text-size-medium-copy-copy-copy {
@@ -3051,70 +3029,6 @@ figcaption {
   color: #000;
   font-weight: 600;
   text-align: left;
-}
-
-.form-2 {
-  display: inline-block;
-  width: 200px;
-  max-height: 0px;
-  min-height: 0px;
-  text-align: center;
-}
-
-.container-7 {
-  display: block;
-  max-height: 199px;
-  max-width: 200px;
-  min-height: 180px;
-  padding-right: 81px;
-  padding-left: 0px;
-  border: 1px solid transparent;
-  border-radius: 11px;
-  background-color: #f6d778;
-  box-shadow: 0 1px 20px -3px #000;
-  text-align: center;
-}
-
-.section {
-  margin-top: 19px;
-  padding-left: 141px;
-}
-
-.grid-5 {
-  margin-top: 13px;
-  -ms-grid-columns: 1fr 1fr;
-  grid-template-columns: 1fr 1fr;
-  -ms-grid-rows: 191px;
-  grid-template-rows: 191px;
-}
-
-.section-2 {
-  margin-top: 19px;
-  padding-right: 122px;
-  padding-left: 0px;
-}
-
-.text-size-medium-copy-copy-copy-copy {
-  margin-top: 13px;
-  margin-bottom: 0rem;
-  border-radius: 0px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-  font-size: 1.2rem;
-  font-weight: 400;
-  text-align: center;
-}
-
-.form-block-2 {
-  max-height: 199px;
-  min-height: 150px;
-}
-
-.container-8 {
-  position: relative;
-  bottom: -29px;
-  max-width: 280px;
-  border-radius: 20px;
-  background-color: #fffce1;
 }
 
 @media screen and (max-width: 991px) {
@@ -3534,15 +3448,11 @@ figcaption {
     font-size: 1rem;
   }
 
-  .text-sifffze-medium-copy-copy-copy {
-    font-size: 1rem;
-  }
-
   .text-size-medium-copy-copy-copy {
     font-size: 1rem;
   }
 
-  .text-size-medium-copy-copy-copy-copy {
+  .text-size-medium-copy-copy-copy {
     font-size: 1rem;
   }
 
@@ -3741,26 +3651,3 @@ figcaption {
   -ms-grid-row-span: 1;
   grid-row-end: span 1;
 }
-
-#w-node-_3e23b02e-f1c1-747f-b6ee-e994957f57eb-aeea5234 {
-  -ms-grid-column: span 1;
-  grid-column-start: span 1;
-  -ms-grid-column-span: 1;
-  grid-column-end: span 1;
-  -ms-grid-row: span 1;
-  grid-row-start: span 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: span 1;
-}
-
-#w-node-f6e910fd-574f-8ff5-1aeb-20ba87f6908e-aeea5234 {
-  -ms-grid-column: span 1;
-  grid-column-start: span 1;
-  -ms-grid-column-span: 1;
-  grid-column-end: span 1;
-  -ms-grid-row: span 1;
-  grid-row-start: span 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: span 1;
-}
-
